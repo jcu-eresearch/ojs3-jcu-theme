@@ -1,0 +1,16 @@
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-13T13:50:00+00:00\n"
+"PO-Revision-Date: 2020-11-13T13:50:00+00:00\n"
+"Language: \n"
+
+msgid "plugins.themes.jcu-theme.name"
+msgstr "Jcu Custom Theme"
+
+msgid "plugins.themes.jcu-theme.description"
+msgstr " A custom theme designed to reflect JCU\'s overall theme."
