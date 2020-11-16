@@ -8,7 +8,7 @@ class JcuThemePlugin extends ThemePlugin {
          */
         public function init() {
                 $this->setParent('defaultthemeplugin');
-                $this->modifyStlye('default', array('addLess' => array('styles/index.less')));
+                $this->modifyStyle('default', array('addLess' => array('styles/index.less')));
         }
 
         /**

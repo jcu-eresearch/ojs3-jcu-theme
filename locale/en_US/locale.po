@@ -10,7 +10,7 @@
 "Language: \n"
 
 msgid "plugins.themes.jcu-theme.name"
-msgstr "Jcu Custom Theme"
+msgstr "JCU Theme"
 
 msgid "plugins.themes.jcu-theme.description"
-msgstr " A custom theme designed to reflect JCU\'s overall theme."
+msgstr "A theme designed to reflect JCU's design principles."
