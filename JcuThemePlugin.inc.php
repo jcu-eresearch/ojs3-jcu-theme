@@ -8,7 +8,23 @@ class JcuThemePlugin extends ThemePlugin {
          */
         public function init() {
                 $this->setParent('defaultthemeplugin');
-                $this->modifyStyle('default', array('addLess' => array('styles/index.less')));
+                $this->addOption('primaryColour', 'FieldColor', [
+                        'label' => __('plugins.themes.jcu-theme.primaryColour.label'),
+                        'description' => __('plugins.themes.jcu-theme.primaryColour.description'),
+                        'default' => '#1E6292',
+                ]);
+
+                $this->addOption('shadeColour', 'FieldColor', [
+                        'label' => __('plugins.themes.jcu-theme.shadeColour.label'),
+                        'description' => __('plugins.themes.jcu-theme.shadeColour.description'),
+                        'default' => '#dddddd',
+                ]);
+
+                $primaryColour = $this->getOption('primaryColour');
+                $shadeColour = $this->getOption('shadeColour');
+
+                $this->modifyStyle('stylesheet', ['addLessVariables' => "@primary:$primaryColour;"]);
+                $this->modifyStyle('stylesheet', ['addLessVariables' => "@bg-shade:$shadeColour;"]);
         }
 
         /**

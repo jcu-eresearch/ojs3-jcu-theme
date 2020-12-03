@@ -14,3 +14,16 @@ msgstr "JCU Theme"
 
 msgid "plugins.themes.jcu-theme.description"
 msgstr "A theme designed to reflect JCU's design principles."
+
+msgid "plugins.themes.jcu-theme.primaryColour.label"
+msgstr "Primary Colour"
+
+msgid "plugins.themes.jcu-theme.primaryColour.description"
+msgstr "The primary colour. Will affect things like borders and hyperlinks."
+
+msgid "plugins.themes.jcu-theme.shadeColour.label"
+msgstr "Shade Colour"
+
+msgid "plugins.themes.jcu-theme.shadeColour.description"
+msgstr "The shade colour is used in things like the footer background and text with background colour."
+

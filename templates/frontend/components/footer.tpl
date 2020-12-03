@@ -30,25 +30,17 @@
 
 	<div class="pkp_structure_footer">
 
-		{if $pageFooter}
-			<div class="pkp_footer_content">
-				{$pageFooter}
-			</div>
-		{/if}
 
                 <div class="jcu_footer">
+                        {if $pageFooter}
+                                {$pageFooter}
+                        {/if}
                         <p>
                         <a href="{$baseUrl}">See all JCU Journals</a>.
                         Hosted by the <a href="https://eresearch.jcu.edu.au">JCU eResearch Centre</a>.
                         </p>
                         <p><a href="#">Return to top</a></p>
                 </div>
-
-		<div class="pkp_brand_footer" role="complementary">
-			<a href="{url page="about" op="aboutThisPublishingSystem"}">
-				<img alt="{translate key="about.aboutThisPublishingSystem"}" src="{$baseUrl}/{$brandImage}">
-			</a>
-		</div>
 	</div>
 </div><!-- pkp_structure_footer_wrapper -->
 
